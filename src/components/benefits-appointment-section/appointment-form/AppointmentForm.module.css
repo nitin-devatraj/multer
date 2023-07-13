@@ -69,3 +69,8 @@ select:focus {
   font-weight: 600;
   background-color: #00c2c5;
 }
+
+.form button:hover {
+  cursor: pointer;
+  background-color: rgba(0, 184, 187, 1);
+}

@@ -2,6 +2,10 @@ import React from "react";
 import styles from "./AppointmentForm.module.css";
 
 function AppointmentForm() {
+  const submitHandler = (event) => {
+    event.preventDefault();
+  };
+
   return (
     <form className={styles.form}>
       <div className={styles.cta_wrapper}>
@@ -14,10 +18,15 @@ function AppointmentForm() {
         </p>
       </div>
       <div className={styles.input_wrapper}>
-        <input type="text" name="fname" placeholder="First name*" />
-        <input type="text" name="lname" placeholder="Last name*" />
-        <input type="email" name="email" placeholder="Email*" />
-        <input type="tel" name="phnumber" placeholder="Phone Number*" />
+        <input type="text" name="fname" placeholder="First name*" required />
+        <input type="text" name="lname" placeholder="Last name*" required />
+        <input type="email" name="email" placeholder="Email*" required />
+        <input
+          type="tel"
+          name="phnumber"
+          placeholder="Phone Number*"
+          required
+        />
         <select name="type">
           <option value="type" defaultValue>
             Type Of Appointment
@@ -26,7 +35,9 @@ function AppointmentForm() {
           <option value="type2">Type 2</option>
           <option value="type3">Type 3</option>
         </select>
-        <button>SCHEDULE NOW</button>
+        <button type="submit" onClick={submitHandler}>
+          SCHEDULE NOW
+        </button>
       </div>
     </form>
   );
