@@ -19,7 +19,7 @@ function AppointmentForm() {
         <input type="email" name="email" placeholder="Email*" />
         <input type="tel" name="phnumber" placeholder="Phone Number*" />
         <select name="type">
-          <option value="type" selected>
+          <option value="type" defaultValue>
             Type Of Appointment
           </option>
           <option value="type1">Type 1</option>

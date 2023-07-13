@@ -5,7 +5,7 @@ import aboutImage from "../../assets/multor-about.jpg";
 function About() {
   return (
     <section className={styles.section}>
-      <img src={aboutImage} alt="about-image" />
+      <img src={aboutImage} alt="about" />
       <div>
         <p>ABOUT</p>
         <h3>

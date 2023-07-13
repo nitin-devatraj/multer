@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./BenefitSection.module.css";
-import BenefitsIcon1 from "../../assets/multor-benefit1-icon.svg";
-import BenefitsIcon2 from "../../assets/multor-benefit2-icon.svg";
-import BenefitsIcon3 from "../../assets/multor-benefit3-icon.svg";
+import BenefitsIcon1 from "../../../assets/multor-benefit1-icon.svg";
+import BenefitsIcon2 from "../../../assets/multor-benefit2-icon.svg";
+import BenefitsIcon3 from "../../../assets/multor-benefit3-icon.svg";
 
 function BenefitSection() {
   return (

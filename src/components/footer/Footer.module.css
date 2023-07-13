@@ -1,0 +1,24 @@
+.footer {
+  background-color: #152f2e;
+}
+
+.footer .wrapper {
+  width: 65.2vw;
+  padding: 50px 0px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .wrapper img {
+  width: 100px;
+  height: 30px;
+}
+
+.footer .wrapper p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #a2acac;
+}
