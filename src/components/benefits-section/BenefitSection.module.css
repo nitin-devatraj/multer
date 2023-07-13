@@ -1,0 +1,25 @@
+.section h4 {
+  color: #152f2e;
+  font-size: 20px;
+  line-height: 20px;
+  margin: 8px;
+  margin-left: 22px;
+}
+
+.section p {
+  color: #152f2e;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+  margin: 8px 0px 30px 65px;
+}
+
+.section img {
+  height: 42px;
+  width: 41px;
+}
+
+.section .wrapper {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,32 @@
+.header {
+  height: 721px; /*86vh; */
+  background-image: url("../../assets/multor-heroshot.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.header img {
+  width: 138px;
+  height: 30px;
+}
+
+.header h1 {
+  font-size: 82px;
+  color: #152f2e;
+  letter-spacing: -5px;
+  line-height: 85px;
+}
+
+.header p {
+  font-size: 20px;
+  color: #152f2e;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 0px;
+}
+
+.header .container {
+  width: 65.2vw;
+  margin: 0px auto;
+  padding: 80px 0px 200px;
+}
