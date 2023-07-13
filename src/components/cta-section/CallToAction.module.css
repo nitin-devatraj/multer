@@ -1,0 +1,29 @@
+.section {
+  height: 650px;
+  background-color: #e8fbfb;
+}
+
+.section .wrapper {
+  width: 940px;
+  text-align: center;
+  margin: auto;
+  padding: 80px 0px;
+}
+
+.section h2 {
+  color: #152f2e;
+  font-size: 48px;
+  margin: 30px 0px;
+}
+
+.section p {
+  color: #152f2e;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: "Mulish", sans-serif;
+  margin-bottom: 68px;
+}
+
+.section img {
+  width: 100%;
+}
