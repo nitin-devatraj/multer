@@ -1,3 +1,7 @@
+.section {
+  display: inline-block;
+}
+
 .section h4 {
   color: #152f2e;
   font-size: 20px;
