@@ -1,4 +1,5 @@
 import styles from "./App.module.css";
+import About from "./components/about-section/About";
 import AppointmentForm from "./components/appointment-form/AppointmentForm";
 import BenefitSection from "./components/benefits-section/BenefitSection";
 import CallToAction from "./components/cta-section/CallToAction";
@@ -17,6 +18,7 @@ function App() {
       <CallToAction />
       <Testimonial />
       <Features />
+      <About />
     </>
   );
 }

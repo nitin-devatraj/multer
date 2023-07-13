@@ -1,0 +1,40 @@
+.section {
+  width: 65.2vw;
+  margin: auto;
+  padding-bottom: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section img {
+  width: 460px;
+  height: 400px;
+}
+
+.section div {
+  width: 42%;
+}
+
+.section div h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 32px;
+  color: #152f2e;
+}
+
+.section div p {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 12px;
+  color: #00c2c5;
+}
+
+.section div p:last-child {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #152f2e;
+  font-family: "Mulish", sans-serif;
+}
