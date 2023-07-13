@@ -3,6 +3,7 @@ import AppointmentForm from "./components/appointment-form/AppointmentForm";
 import BenefitSection from "./components/benefits-section/BenefitSection";
 import CallToAction from "./components/cta-section/CallToAction";
 import Header from "./components/header/Header";
+import Testimonial from "./components/testimonials/Testimonial";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <AppointmentForm />
       </section>
       <CallToAction />
+      <Testimonial />
     </>
   );
 }
