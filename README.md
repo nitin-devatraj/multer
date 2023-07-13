@@ -1,4 +1,12 @@
-# Getting Started with Create React App
+
+
+
+
+# multer
+
+this project is build solely with react and javascript and is the clone / implementation of the multer landing page. 
+see here for the original page : https://templates.unbounce.com/multor/
+here is the link to the live demo implemented : https://multer.netlify.app/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
