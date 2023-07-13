@@ -1,0 +1,17 @@
+.section {
+  width: 65.2vw;
+  padding: 100px 0px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section .feature_card {
+  width: 32%;
+}
+
+.section img {
+  height: 170px;
+  width: 100%;
+}
